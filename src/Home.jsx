@@ -10,7 +10,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <>
 
       <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <SwiperSlide>Slide 1</SwiperSlide>
@@ -24,9 +24,7 @@ const Home = () => {
         <SwiperSlide>Slide 9</SwiperSlide>
       </Swiper>
 
-
-
-    </div>
+    </>
   )
 }
 
